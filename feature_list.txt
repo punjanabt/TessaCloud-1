@@ -1,6 +1,29 @@
 PROJECT NAME:
-AssetTrack – Company Asset Management System
+TessaCloud – Integrated HR & Asset Management System
 
+
+==================================================
+SYSTEM 1: HR MANAGEMENT SYSTEM
+==================================================
+
+1. Understanding of Client Requirements
+---------------------------------------
+A comprehensive HR management system to handle employee records,
+attendance tracking, leave management, payroll, and user accounts.
+
+Features:
+- Employee management and records
+- Department and role management
+- Attendance tracking (check-in/out)
+- Leave request management
+- Payroll processing
+- User account management
+- HR staff hierarchy
+
+
+==================================================
+SYSTEM 2: ASSETTRACK – Company Asset Management
+==================================================
 
 1. Understanding of Client Requirements
 ---------------------------------------
@@ -12,9 +35,9 @@ The goal is to maintain accountability and easy visibility of assets.
 2. Creative Freedoms Taken
 --------------------------
 - Product named "AssetTrack"
-- Assumed a web-based internal system
+- Assumed a web-based internal system integrated with HR
 - Introduced admin and employee roles
-- Expanded scope to include asset history and status tracking
+- Expanded scope to include asset history and condition tracking
 
 
 3. Assumptions Made
@@ -25,33 +48,38 @@ The goal is to maintain accountability and easy visibility of assets.
 - Assets can be reassigned
 - Admin manages assets and assignments
 - Employees can view their assigned assets
+- Assets track condition, location, and depreciation
 
 
-4. Feature List
----------------
+4. AssetTrack Feature List
+--------------------------
 1. Asset Registration
-   - Add and manage company assets.
+   - Add and manage company assets with serial numbers and categories
 
 2. Employee Management
-   - Add and maintain employee details.
+   - Integration with HR system for employee details
 
 3. Asset Assignment
-   - Assign assets to employees.
+   - Assign assets to employees with effective dates
 
 4. Asset Reassignment
-   - Transfer assets between employees.
+   - Transfer assets between employees with history
 
-5. Asset Status Tracking
-   - Track asset availability and condition.
+5. Asset Condition & Status Tracking
+   - Track asset availability (Active, Inactive, Maintenance, Disposed)
+   - Monitor asset condition (New, Good, Fair, Damaged)
 
 6. Asset History
-   - View past assignments of assets.
+   - View past assignments and ownership records
+   - Track maintenance and depreciation
 
 
 5. Questions for Next Client Meeting
 ------------------------------------
-1. What types of assets should be tracked?
+1. What types of assets should be tracked? (Laptops, Furniture, Vehicles, etc.)
 2. Should asset condition tracking be mandatory?
 3. Do employees need asset request functionality?
 4. Is asset return confirmation required?
 5. Are reports required for management?
+6. Should depreciation calculations be automated?
+7. Is asset maintenance scheduling needed?

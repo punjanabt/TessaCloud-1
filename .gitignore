@@ -1,0 +1,30 @@
+# Database credentials and config
+*.env
+.env.local
+.env.production
+config.ini
+database.ini
+db_config.py
+credentials.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.backup
